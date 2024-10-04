@@ -1,0 +1,99 @@
+h1,p
+{
+    font-size: xx-large;
+    color: white;
+}
+input
+{
+    background-color: rgb(40, 46, 54);
+    border: 0;
+    border-radius: 50px;
+    height: 35px;
+    color: white;
+    padding-left: 15px;
+}
+input.error
+{
+    border: 2px solid red;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+div img
+{
+    width: 480px;
+    height: 500px;
+    margin-right: 30px;
+}
+.submitbutton
+{
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(194, 33, 87);
+    border: 0px;
+    color: white;
+    font-size: large;
+}
+.backbutton
+{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(194, 33, 87);
+    border: 0px;
+}
+.menu
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 300px;
+    background-color: #333;
+    color: #a3a3a3;
+    z-index: 100;
+    overflow-y: auto;
+    display: none;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+}
+.menu-item 
+{
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: large;
+}
+.menu-item:hover 
+{
+    background-color: #ffffff;
+    color: black;
+}
+.menu.open 
+{
+    transform: translateX(0);
+    display: block;
+}
+.searchbar
+{
+    margin-top: 50px;
+    margin-left: 220px;
+    width: 76%;
+    height: 35px;
+}
+img:hover
+{
+    opacity: 75%;
+}
+img
+{
+    transition: all 0.3s ease-in-out;
+}
+.error-message
+{
+    color: red;
+    font-size: small;
+}
