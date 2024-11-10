@@ -3,14 +3,17 @@ h1,p
     font-size: xx-large;
     color: white;
 }
-input
+input , textarea 
 {
     background-color: rgb(40, 46, 54);
     border: 0;
-    border-radius: 50px;
-    height: 35px;
+    border-radius: 20px;
     color: white;
     padding-left: 15px;
+}
+input
+{
+    height: 35px;
 }
 input.error
 {
@@ -37,13 +40,17 @@ div img
     color: white;
     font-size: large;
 }
-.backbutton
+.backbutton 
 {
     border-radius: 5px;
     width: 50px;
     height: 50px;
     background-color: rgb(194, 33, 87);
     border: 0px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
 }
 .menu
 {
@@ -96,4 +103,21 @@ img
 {
     color: red;
     font-size: small;
+}
+footer 
+{
+    width: 100%;
+    background-color: #1a1a1a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+footer a 
+{
+    color: rgb(194, 33, 87);
+    text-decoration: none;
+}
+footer a:hover 
+{
+    color: rgb(167, 30, 75);
 }
